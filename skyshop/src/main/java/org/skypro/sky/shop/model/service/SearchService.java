@@ -8,7 +8,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
-public class   SearchService {
+public class SearchService {
     private final org.skypro.sky.shop.model.service.StorageService storageService;
 
     public SearchService() {

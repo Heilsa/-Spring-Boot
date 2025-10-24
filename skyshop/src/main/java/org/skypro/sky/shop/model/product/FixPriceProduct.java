@@ -2,7 +2,7 @@ package org.skypro.sky.shop.model.product;
 
 import java.util.UUID;
 
-public class   FixPriceProduct extends Product {
+public class FixPriceProduct extends Product {
 
     private static final double FIX_PRICE = 99.99;
     private final UUID id;
