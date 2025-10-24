@@ -9,7 +9,7 @@ public class DiscountedProduct extends Product {
     private final UUID id;
 
     public DiscountedProduct(UUID id, String name, double priceBase, int discountPercent) {
-        super(name);
+          super(name);
         this.id = id;
         try {
             if (priceBase <= 0) {

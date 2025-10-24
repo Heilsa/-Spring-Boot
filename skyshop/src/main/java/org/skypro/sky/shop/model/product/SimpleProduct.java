@@ -2,7 +2,7 @@ package org.skypro.sky.shop.model.product;
 
 import java.util.UUID;
 
-public class SimpleProduct extends Product {
+public class   SimpleProduct extends Product {
 
     private double price;
     private final UUID id;
