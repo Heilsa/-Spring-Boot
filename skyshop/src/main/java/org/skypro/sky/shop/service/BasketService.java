@@ -1,4 +1,4 @@
-package org.skypro.sky.shop.model.service;
+package org.skypro.sky.shop.service;
 
 import org.skypro.sky.shop.model.basket.BasketItem;
 import org.skypro.sky.shop.model.basket.ProductBasket;

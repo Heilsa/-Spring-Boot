@@ -1,4 +1,4 @@
-package org.skypro.sky.shop.model.service;
+package org.skypro.sky.shop.service;
 
 import org.skypro.sky.shop.model.search.SearchResult;
 import org.skypro.sky.shop.model.search.Searchable;

@@ -1,19 +1,17 @@
 package org.skypro.sky.shop;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.skypro.sky.shop.model.basket.ProductBasket;
 import org.skypro.sky.shop.model.basket.UserBasket;
 import org.skypro.sky.shop.model.exception.NoSuchProductException;
 import org.skypro.sky.shop.model.product.Product;
 import org.skypro.sky.shop.model.product.SimpleProduct;
-import org.skypro.sky.shop.model.service.BasketService;
-import org.skypro.sky.shop.model.service.StorageService;
+import org.skypro.sky.shop.service.BasketService;
+import org.skypro.sky.shop.service.StorageService;
 
 import java.util.*;
 

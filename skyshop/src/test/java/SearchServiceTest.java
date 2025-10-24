@@ -9,8 +9,8 @@ import org.skypro.sky.shop.model.product.SimpleProduct;
 import org.skypro.sky.shop.model.search.SearchResult;
 
 import org.skypro.sky.shop.model.search.Searchable;
-import org.skypro.sky.shop.model.service.SearchService;
-import org.skypro.sky.shop.model.service.StorageService;
+import org.skypro.sky.shop.service.SearchService;
+import org.skypro.sky.shop.service.StorageService;
 
 import java.util.*;
 
