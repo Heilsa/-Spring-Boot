@@ -1,18 +1,17 @@
-package org.skypro.sky.shop.model.service;
+package org.skypro.sky.shop.service;
 
 import org.skypro.sky.shop.model.search.SearchResult;
 import org.skypro.sky.shop.model.search.Searchable;
 import org.springframework.stereotype.Service;
-
 import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
 public class SearchService {
-    private final org.skypro.sky.shop.model.service.StorageService storageService;
+    private final StorageService storageService;
 
-    public SearchService() {
-        this.storageService = new org.skypro.sky.shop.model.service.StorageService();
+    public SearchService(StorageService storageService) {
+        this.storageService = storageService;
     }
 
     public Collection<SearchResult> search(String pattern) {
